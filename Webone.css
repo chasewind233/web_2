@@ -1,0 +1,549 @@
+/*
+* @Author: 杰仔
+* @Date:   2018-12-13 16:01:07
+* @Last Modified by:   杰仔
+* @Last Modified time: 2019-01-03 22:52:50
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+#All{
+	width: 100%;
+}
+.Top{
+	width: 1180px;
+	margin: auto;
+	height: 170px;
+}
+.top_a{
+	width: 740px;
+	height: 25px;
+	float: left;
+	margin-left: 270px;
+}
+.qq{
+	width: 19px;
+	height: 19px;
+	background: url('任务所需小图/img/common_min.png') 0 -31px;
+}
+.weixin{
+	width: 19px;
+	height: 19px;
+	background: url('任务所需小图/img/common_min.png') 0 -53px;
+}
+.e-mail{
+	width: 19px;
+	height: 19px;
+	background: url('任务所需小图/img/common_min.png') 0 -74px;
+}
+.message{
+	width: 19px;
+	height: 19px;
+	background: url('任务所需小图/img/common_min.png') 0 -116px;
+}
+.another{
+	width: 50px;
+	height: 19px;
+}
+.top_a a{
+	float: left;
+	color: #999999;
+	font-size: 11px;
+	display: inline-block;
+	margin-left: 15px;
+	text-decoration: none;
+}
+.top_search{
+	height: 70px;
+	width: 600px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 110px;
+}
+.search_before{
+	width: 500px;
+	height: 40px;
+	border: 2px solid red ;
+	float:left;
+}
+.search_after{
+	width: 70px;
+	background-color: red;
+	height: 43px;
+	color: white;
+	outline:none;
+	border:0px;
+	padding:0;
+}
+.search_a{
+	width: 570px;
+	height: 30px;
+	float: left;
+}
+.search_a a{
+	text-decoration: none;
+	font-size: 13px;
+}
+.top_left{
+	width: 150px;
+	height: 120px;
+	float: left ;
+	
+}
+.left_bottom{
+	width: 176px;
+	height: 36px;
+	margin-top:15px;
+	float: left ;
+	background-color: red;
+	text-align: center;
+
+}
+.left_bottom span{
+	display: inline-block;
+	margin-top: 8px;
+	color: white;
+	font-size: 18px ;
+	font-family: 微软雅黑;
+
+}
+.top_left img{
+	display: inline-block;
+	padding-top: 20px;
+}
+.top_right{
+	width: 260px;
+	height: 40px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.top_right div{
+	border-radius: 5px;
+	border: 1px solid #cc9999;
+}
+.right_one{
+	width: 80px;
+	height: 37px;
+	background-color: white;
+	float: left;
+}
+.right_two{
+	width: 80px;
+	height: 37px;
+	background-color: white;
+	float: left;
+}
+.top_right span{
+	color: #cc9999;
+	font-size:  10px;
+	margin-left: 7px;
+	display: inline-block;
+	float: left;
+}
+#erji{
+	background: url('任务所需小图/img/common_min.png') 0 -115px;
+}
+
+.right_three{
+	width: 80px;
+	height: 37px;
+	background-color: red;
+	float: left;
+}
+.right_three span{
+	color: white;
+	float: left;
+	margin-left: 1px;
+	margin-top: 11px;
+}
+.right_three a{
+	width: 13px;
+	height: 13px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 10px;
+	background: url('任务所需小图/img/wenhao.jpg') ;
+}
+
+.top_right img{
+	width: 19px;
+	height: 19px;
+	margin-left: 30px;
+	background: url('任务所需小图/img/common_min.png') 0 -95px;
+	display: inline-block;
+	text-decoration: none;
+}
+.Top_fixed{
+	float: left;
+	height: 120px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+.xian{
+	height: auto;
+	color: red;
+	border: 1px solid red;
+}
+.Other{
+	height: 900px;
+	width: auto;
+	background-color: #f8f7f6;
+}
+.main{
+	width: 1180px;
+	height: 550px;
+	background-color: white;
+	margin: auto;
+}
+
+.main_center{
+	width: 800px;
+	height: 370px;
+	float: left;
+}
+.top_bottom{
+	width: 750px;
+	height: 35px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 12px;
+}
+.top_bottom div{
+	width: 100px;
+	height: 38px;
+	float: left;
+	text-align: center;
+}
+.top_bottom div:last-child{
+	width: 150px;
+	
+}
+.top_bottom span{
+	font-size:16px;
+	display: inline-block;
+	margin-top: 5px;
+	font-family: 微软雅黑;
+}
+.top_bottom div:hover{
+	background-color:#ff4d04;
+}
+.box{
+	width: 800px;
+	height: 360px;
+	border: 1px solid red;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 320px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
+.mian_left{
+	width: 175px;
+	height: 550px;
+	float: left;
+
+}
+.center_shu{
+	width: 30px;
+	height: 420px;
+	background-color: #333333;
+	float: left;
+}
+.center_shu span{
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+	margin-top: 20px;
+	color: #ff4d4b;
+}
+.center_ye{
+	width: 145px;
+	height: 420px;
+	margin-left: 30px;
+	border: 0.5px solid #ff9900;
+}
+.center_ye ul li a{
+	text-decoration: none;
+	font-size: 13px;
+}
+.center_ye ul li{
+	float: left;
+	margin: 10px 3px 1px 6px;
+}
+
+
+.center_left_bottom{
+	width: 175px;
+	height: 130px;
+}
+.center_left_bottom div{
+	width: 175px;
+	height: 30px;
+	margin: auto ;
+	margin-top:5px;
+}
+.center_left_bottom div a{
+	text-decoration: none;
+	font-size: 13px;
+	display: inline-block;
+	margin-top:15px;
+}
+.main_picture{
+	width: 800px;
+	height: 183px;
+	background-color: blue;
+	float: left;
+}
+.main_picture img{
+	display: inline-block;
+	float: left;
+}
+.bottom{
+	width: 1180px;
+	height: 185px;
+	margin: 0 auto;
+}
+.bottom_left{
+	width: 170px;
+	height: 180px;
+	float: left;
+}
+.bottom_mid{
+	width: 800px;
+	height: 180px;
+	float: left;
+}
+.bottom_right{
+	width: 200px;
+	height: 180px;
+	float: right;
+}
+.bottom_mid_options{
+	margin-top: 30px;
+	margin-left: 20px;
+	width: 110px;
+	height: 150px;
+	float: left;
+}
+.bottom_mid_options ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #cc9966;
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 11px;
+}
+.main_right{
+	width: 200px;
+	height: 360px;
+	float: left;
+	/* background-color: gray; */
+}
+.right_top{
+	width: 200px;
+	height: 37px;
+	float: left;
+	text-align: center;
+	line-height: 45px;
+}
+.right_top img{
+	display: inline-block;
+	margin-top: 14px;
+	float: left;
+	margin-left: 20px;
+}
+.right_top img:last-child{
+	float: right;
+	margin-right: 20px;
+}
+.right_top span{
+	float: left;
+	color: #ff4d04;
+	font-size:  13px ;
+	font-weight: bold;
+	display: inline-block;
+	margin-left:  10px;
+}
+#right_center{
+	width: 200px;
+	height: 300px;
+	float:left ;
+	margin:20px auto;
+    border:#ccc solid 1px;
+    border-right: 0px;
+    overflow:hidden;/* 这里必须设置哦，否则滚动会消失的，如果设置为scroll，更容易明白原理 */
+}
+#p1 li{
+    line-height:30px;
+}
+#right_center a{
+
+	color: #ff4d04;
+	font-size:  13px ;
+	font-weight: bold;
+	display: inline-block;
+	margin-left:  10px;
+	text-decoration: none;
+}
+.right_bottom{
+	width: 200px;
+	height: 30px;
+	float: left;
+	margin-left: 14px;
+	/* background-color: red; */
+}
+.right_bottom span{
+	font-size: 14px;
+	font-family: 微软雅黑；
+}
+.right_bottom span:last-child{
+	color: #ff4d04;
+}
+.right_bottom_four{
+	margin-left: 14px;
+	width: 175px;
+	height: 25px;
+	border-radius: 5px;
+	background-color: red;
+	float: left;
+	text-align: center;
+}
+.right_bottom_four a{
+	text-decoration: none;
+	color: white;
+
+}
+.bottom_bottom{
+	height: 165px;
+	width: 100%;
+	/* background-color: gray; */
+	text-align: center;
+}
+.search_b a{
+	text-decoration: none;
+	font-size: 13px;
+}
+.search_c span{
+	color: #9a9791;
+	text-decoration: none;
+	font-size: 13px;
+}
+.search_d{
+	width: 850px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.search_d li{
+	display: inline-block;
+	float: left;
+	margin-left: 2px;
+}
+
+
+.allClientLeft{
+	position: fixed;
+	right: 0px;
+	top: 100px;
+	z-index: 60;
+}
+.allClientLeft li{
+	position: relative;
+	right: -95px;
+}
+.allClientLeft ul li:nth-child(1){
+	height: 100px;
+	right: -95px;
+}
+.allClientLeft ul li:nth-child(1) img{
+	display: block;
+	width: 130px;
+}
+.allClientLeft ul li:nth-child(2){
+	height: 140px;
+	right: -95px;
+	background-color: #ff9260;
+}
+.allClientLeft ul li:nth-child(2) .xlo{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	height: 50px;
+	width: 60px;
+	margin-top: -25px;
+	text-align: center;
+}
+
+.allClientLeft ul li:nth-child(2) .xlo button{
+	border: 1px solid #fff;
+	border-radius: 3px;
+	color: #fff;
+	width: 40px;
+	background-color: #ff9260;
+}
+
+.allClientLeft ul li:nth-child(3){
+	right: -95px;
+	height: 150px;
+	background-color: #ff9260;
+
+}
+.allClientLeft ul li:nth-child(3) img:nth-child(3){
+	margin-left: 10px;
+	display: inline-block;
+}
+.allClientLeft ul li:nth-child(3) img:nth-child(4){
+	margin-left: 10px;
+}
